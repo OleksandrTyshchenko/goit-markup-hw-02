@@ -85,14 +85,14 @@ li {
   color: #212121;
 }
 
-.title-subtitle {
+.subtitle {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
   color: #212121;
 }
 
-.title-text {
+.text {
   font-size: 14px;
   line-height: 1.7;
 }
@@ -132,14 +132,14 @@ li {
 }
 
 /*главаня страница портфолио*/
-.title-project {
+.project {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   color: #212121;
 }
 
-.title-desc {
+.desc {
   font-size: 16px;
   line-height: 2;
 }

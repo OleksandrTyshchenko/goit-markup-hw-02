@@ -1,4 +1,8 @@
-/* преобладающий цвет текса #757575;*/
+/* преобладающий цвет текса #757575; */
+/* цвет заголовков #212121; */
+/* цвет актива #2196F3; */
+/* бек-граунд основной #ffffff; */
+/* бек-граунд команды #F5F4FA;*/
 
 body {
   background-color: #ffffff;
@@ -70,6 +74,10 @@ li {
   cursor: pointer;
 }
 
+.button:hover {
+  color: #188ce8;
+}
+
 .hero {
   background-color: #2f303a;
   color: #ffffff;
@@ -95,6 +103,10 @@ li {
 .text {
   font-size: 14px;
   line-height: 1.7;
+}
+
+.box {
+  background-color: #f5f4fa;
 }
 
 .title-team {

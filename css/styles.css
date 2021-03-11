@@ -1,3 +1,5 @@
+/* преобладающий цвет текса #757575;*/
+
 body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
@@ -56,7 +58,7 @@ li {
   color: #2196f3;
 }
 
-/* главная страница*/
+/* главная страница веб-студия*/
 
 .button {
   color: #ffffff;
@@ -83,26 +85,26 @@ li {
   color: #212121;
 }
 
-.subtitle {
+.title-subtitle {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
   color: #212121;
 }
 
-.text {
+.title-text {
   font-size: 14px;
   line-height: 1.7;
 }
 
-.team {
+.title-team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   color: #212121;
 }
 
-.responsibilities {
+.title-responsibilities {
   font-size: 16px;
   line-height: 1.2;
 }
@@ -127,4 +129,17 @@ li {
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*главаня страница портфолио*/
+.title-project {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+
+.title-desc {
+  font-size: 16px;
+  line-height: 2;
 }

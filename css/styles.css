@@ -1,0 +1,130 @@
+body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  color: #757575;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+/* Шапка*/
+
+.web {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.studio {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.site-nav .link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.site-nav .link.curent {
+  color: #2196f3;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.com-nav .com-nav {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.com-nav:hover,
+.com-nav:focus {
+  color: #2196f3;
+}
+
+/* главная страница*/
+
+.button {
+  color: #ffffff;
+  font-family: inherit;
+  background-color: #2196f3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 2;
+  cursor: pointer;
+}
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #212121;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  color: #212121;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #212121;
+}
+
+.responsibilities {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* подвал*/
+.page-footer {
+  background-color: #2f303a;
+}
+.studio-white {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.address {
+  font-size: 14px;
+  line-height: 2;
+  color: #ffffff;
+}
+
+.contact {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}

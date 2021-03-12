@@ -3,18 +3,30 @@
 /* цвет актива #2196F3; */
 /* бек-граунд основной #ffffff; */
 /* бек-граунд команды #F5F4FA;*/
+/* текст-лого #000000; */
 
 :root {
   --dominant-tex-color: #757575;
   --title-color: #212121;
   --accent-color: #2196f3;
-  --background-color: #fffff;
+  --background-color: #ffffff;
+  --logo-color: #000000;
+  --color-white: #ffffff;
+  --background-hero-color: #2f303a;
+  --button-active-color: #188ce8;
+  --box-backgroun-color: #f5f4fa;
+  --contact-footer-color: rgba(255, 255, 255, 0.6);
+  --contact-header-color: #757575;
+  --background-footer-color: #2f303a;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--background-color);
   font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   color: var(--dominant-tex-color);
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
@@ -35,7 +47,7 @@ li {
 }
 
 .studio {
-  color: #000000;
+  color: var(--logo-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
@@ -58,7 +70,7 @@ li {
 }
 
 .com-nav .com-nav {
-  color: #757575;
+  color: var(--contact-header-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -71,8 +83,8 @@ li {
 
 /* главная страница веб-студия*/
 
-.button {
-  color: #ffffff;
+.button-hero {
+  color: var(--color-white);
   font-family: inherit;
   background-color: var(--accent-color);
   font-weight: bold;
@@ -81,24 +93,29 @@ li {
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
-  color: #188ce8;
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--button-active-color);
+}
+
+.background-hero {
+  background-color: var(--background-hero-color);
 }
 
 .hero {
-  background-color: #2f303a;
-  color: #ffffff;
+  color: var(--color-white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
-  color: var(--title-color) 2121;
+  color: var(--title-color);
 }
 
 .subtitle {
@@ -106,6 +123,7 @@ li {
   font-size: 14px;
   line-height: 1.1;
   color: var(--title-color);
+  text-transform: uppercase;
 }
 
 .text {
@@ -114,7 +132,7 @@ li {
 }
 
 .box {
-  background-color: #f5f4fa;
+  background-color: var(--box-backgroun-color);
 }
 
 .title-team {
@@ -131,10 +149,10 @@ li {
 
 /* подвал*/
 .page-footer {
-  background-color: #2f303a;
+  background-color: var(--background-footer-color);
 }
 .studio-white {
-  color: #ffffff;
+  color: var(--color-white);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
@@ -142,13 +160,15 @@ li {
 .address {
   font-size: 14px;
   line-height: 2;
-  color: #ffffff;
+  color: var(--color-white);
+  font-style: normal;
 }
 
 .contact {
   font-size: 14px;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contact-footer-color);
+  font-style: normal;
 }
 
 /*главаня страница портфолио*/
@@ -162,6 +182,26 @@ li {
 .desc {
   font-size: 16px;
   line-height: 2;
+}
+
+.button-portfolio {
+  color: var(--title-color);
+  font-family: inherit;
+  background-color: var(--box-backgroun-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 2;
+  cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--color-white);
+  background-color: var(--accent-color);
+}
+
+.filter .button-portfolio.curent {
+  background-color: var(--accent-color);
 }
 
 .visually-hidden {

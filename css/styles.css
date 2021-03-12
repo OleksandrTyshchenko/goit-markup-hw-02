@@ -4,10 +4,17 @@
 /* бек-граунд основной #ffffff; */
 /* бек-граунд команды #F5F4FA;*/
 
+:root {
+  --dominant-tex-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #fffff;
+}
+
 body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
-  color: #757575;
+  color: var(--dominant-tex-color);
   letter-spacing: 0.03em;
 }
 
@@ -21,7 +28,7 @@ li {
 /* Шапка*/
 
 .web {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
@@ -35,19 +42,19 @@ li {
 }
 
 .site-nav .link {
-  color: #212121;
+  color: var(--title-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
 }
 
 .site-nav .link.curent {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .com-nav .com-nav {
@@ -59,7 +66,7 @@ li {
 
 .com-nav:hover,
 .com-nav:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* главная страница веб-студия*/
@@ -67,7 +74,7 @@ li {
 .button {
   color: #ffffff;
   font-family: inherit;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   font-weight: bold;
   font-size: 16px;
   line-height: 2;
@@ -90,14 +97,14 @@ li {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
-  color: #212121;
+  color: var(--title-color) 2121;
 }
 
 .subtitle {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .text {
@@ -113,7 +120,7 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .title-responsibilities {
@@ -148,10 +155,21 @@ li {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .desc {
   font-size: 16px;
   line-height: 2;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }

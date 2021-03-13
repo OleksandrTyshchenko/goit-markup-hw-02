@@ -64,10 +64,13 @@ li {
   color: var(--accent-color);
 }
 
+.com-nav .com-nav:hover,
+.com-nav .com-nav:focus,
 .link:hover,
 .link:focus {
   color: var(--accent-color);
 }
+
 
 .com-nav .com-nav {
   color: var(--contact-header-color);
@@ -76,10 +79,6 @@ li {
   line-height: 1.2;
 }
 
-.com-nav:hover,
-.com-nav:focus {
-  color: var(--accent-color);
-}
 
 /* главная страница веб-студия*/
 
@@ -170,6 +169,14 @@ li {
   color: var(--contact-footer-color);
   font-style: normal;
 }
+
+.address:hover,
+.address:focus,
+.contact:hover,
+.contact:focus {
+  color:var(--accent-color)
+}
+
 
 /*главаня страница портфолио*/
 .project {
